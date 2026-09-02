@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: timerit
-  version: "1.1.0"
+  version: 1.1.0
 
 package:
   name: ${{ name|lower }}
@@ -19,7 +19,7 @@ build:
 
 requirements:
   host:
-    - python ${{ python_min }}
+    - python ${{ python_min }}.*
     - setuptools >=41.0.1
     - pip
   run:
